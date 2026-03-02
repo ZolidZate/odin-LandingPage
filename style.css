@@ -15,7 +15,7 @@ a:active {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 10px 150px;
+    padding: 10px 175px;
 }
 
 .link-left {
@@ -35,6 +35,41 @@ a:active {
 .container2{
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
-    padding: 10px 150px;
+    justify-content: space-evenly;
+    padding: 10px 175px;
+    gap: 20px;
+}
+
+.con-left2 {
+    flex-wrap: wrap;
+    border: solid 2px;
+    border-color: chartreuse;
+}
+
+.con-left2-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.con-left2-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#sign-up-1 {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 700;
+    text-align: center;
+    flex-shrink: 1;
+}
+
+.con-right2 {
+    flex-shrink: 0;
+    width: 400px;
+    height: 300px;
+    border: solid 2px;
+    border-color: firebrick;
 }
