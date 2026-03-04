@@ -10,7 +10,6 @@ a:active {
   text-decoration: none; 
 }
 
-
 .container1 {
     display: flex;
     background-color: #1F2937;
@@ -41,9 +40,11 @@ a:active {
 }
 
 .con-left2 {
+    display: flex;
     flex-wrap: wrap;
-    border: solid 2px;
-    border-color: chartreuse;
+    align-items: flex-start;
+    /* flex-shrink: 0; */
+    /* gap: 2px; */
 }
 
 .con-left2-main {
@@ -57,19 +58,20 @@ a:active {
     color: #E5E7EB;
 }
 
-#sign-up-1 {
+.sign-up {
+    border-radius: 10px;
     background-color: #3882F6;
     font-size: 18px;
     color: #F9FAF8;
     font-weight: 700;
-    text-align: center;
-    flex-shrink: 1;
+    padding: 8px 30px;
 }
 
 .con-right2 {
     flex-shrink: 0;
-    width: 400px;
-    height: 300px;
-    border: solid 2px;
-    border-color: firebrick;
+    flex-wrap: wrap;
 }
+
+#right2-img {
+    flex: 1 1 auto;
+} 
