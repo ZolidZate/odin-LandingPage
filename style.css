@@ -1,5 +1,6 @@
 body{
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 a:link, 
@@ -8,6 +9,14 @@ a:hover,
 a:active {
   color: inherit;
   text-decoration: none; 
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: #1F2937;
+    font-size: 16px;
+    color: #F9FAF8;
 }
 
 .container1 {
@@ -36,7 +45,7 @@ a:active {
     background-color: #1F2937;
     justify-content: space-evenly;
     padding: 10px 175px;
-    gap: 20px;
+    gap: 200px;
 }
 
 .con-left2 {
@@ -74,4 +83,111 @@ a:active {
 
 #right2-img {
     flex: 1 1 auto;
-} 
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-evenly;
+    padding: 60px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#con3-sub {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+}
+
+#box {
+    display: flex;
+    width: 160px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    font-size: 18px;
+    text-align: center;
+}
+
+#box-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 4px;
+    border-color: #3882F6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+    gap: 25px;
+}
+
+#quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#quote-name {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+}
+
+.container5 {
+    display: flex;
+    padding: 100px 250px;
+}
+
+.con5-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: #3882F6;
+    width: 100%;
+    border: solid 0px;
+    border-radius: 10px;
+    padding: 40px 100px;
+    gap: 20px;
+}
+
+#con5-action {
+    font-size: 18px;
+    font-weight: 700;
+    color: #E5E7EB;
+    align-self: flex-start;
+}
+
+#con5-now {
+    font-size: 18px;
+    color: #E5E7EB;
+    align-self: flex-start;
+}
+
+#box5-signup {
+    border: solid 2px;
+    border-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.con5-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.con5-right {
+    margin-left: auto;
+    align-self: flex-end;
+}
